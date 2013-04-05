@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfCypressReference",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfCypressReference",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

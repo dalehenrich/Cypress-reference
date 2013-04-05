@@ -1,22 +1,22 @@
 *Cypress-Structure
 writeCypressJsonOn: aStream indent: startIndent
-    | indent count |
+    | indent cnt |
     indent := startIndent.
     aStream
         nextPutAll: '{';
         lf.
-    count := 0.
+    cnt := 0.
     indent := indent + 1.
     (self keys sort: [ :a :b | a <= b ])
         do: [ :key | 
             | value |
             value := self at: key.
-            count := count + 1.
+            cnt := cnt + 1.
             aStream tab: indent.
             key writeCypressJsonOn: aStream indent: indent.
             aStream nextPutAll: ' : '.
             value writeCypressJsonOn: aStream indent: indent.
-            count < self size
+            cnt < self size
                 ifTrue: [ 
                     aStream
                         nextPutAll: ',';
