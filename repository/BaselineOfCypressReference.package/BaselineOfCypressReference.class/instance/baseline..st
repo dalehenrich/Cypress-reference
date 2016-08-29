@@ -29,9 +29,23 @@ baseline: spec
           with: [ spec includes: 'Cypress-Pharo-Definitions' ];
         package: 'Cypress-Pharo-Definitions'
           with: [ spec requires: 'Cypress-Definitions' ];
+         yourself ].
+  spec
+    for: #(#'pharo5.x')
+    do: [ 
+      spec
         package: 'Cypress-Platform'
-          with: [ spec includes: 'Cypress-Pharo-Platform' ];
-        package: 'Cypress-Pharo-Platform'
+          with: [ spec includes: 'Cypress-Pharo50-Platform' ];
+        package: 'Cypress-Pharo50-Platform'
+          with: [ spec requires: 'Cypress-Platform' ];
+        yourself ].
+  spec
+    for: #(#'pharo6.x')
+    do: [ 
+      spec
+        package: 'Cypress-Platform'
+          with: [ spec includes: 'Cypress-Pharo60-Platform' ];
+        package: 'Cypress-Pharo60-Platform'
           with: [ spec requires: 'Cypress-Platform' ];
         yourself ].
   spec
