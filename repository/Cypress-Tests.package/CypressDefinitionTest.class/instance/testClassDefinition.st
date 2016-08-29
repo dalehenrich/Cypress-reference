@@ -1,9 +1,11 @@
 testing
 testClassDefinition
-	self assert: (CypressClassDefinition
-		name: 'Foo'
-       		 superclassName: 'Object'
-       		category: 'Foo'
-                instVarNames: #()
-		classInstVarNames: #()
-        	comment: '') printString =  'a CypressClassDefinition (Foo)'
+  | def x |
+  def := CypressClassDefinition
+    name: 'Foo'
+    superclassName: 'Object'
+    category: 'Foo'
+    instVarNames: #()
+    classInstVarNames: #()
+    comment: ''.
+  self assert: (x := def printString) = 'aCypressClassDefinition (Foo)'

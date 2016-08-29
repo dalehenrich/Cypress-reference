@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"updatePackage:withSnapshot:" : "dkh 04/14/2012 13:53:14" },
+	"instance" : {
+		"additions" : "dkh 04/14/2012 13:53:14",
+		"analyze" : "dkh 04/14/2012 13:53:14",
+		"analyzeAdditions" : "dkh 04/14/2012 13:53:14",
+		"analyzeRemovals" : "dkh 04/14/2012 13:53:14",
+		"applyAddition:" : "dkh 04/14/2012 13:53:14",
+		"applyModification:" : "dkh 04/14/2012 13:53:14",
+		"applyRemoval:" : "dkh 04/14/2012 13:53:14",
+		"basicLoad" : "dkh 04/14/2012 13:53:14",
+		"errors" : "dkh 04/14/2012 13:53:14",
+		"load" : "dkh 04/14/2012 13:53:14",
+		"loadClassDefinition:" : "dkh 04/14/2012 13:53:14",
+		"loadMethodDefinition:" : "dkh 04/14/2012 13:53:14",
+		"methodAdditions" : "dkh 04/14/2012 13:53:14",
+		"postLoad:" : "dkh 04/14/2012 13:53:14",
+		"provisions" : "dkh 08/29/2016 13:12",
+		"removals" : "dkh 04/14/2012 13:53:14",
+		"unloadDefinition:" : "dkh 04/14/2012 13:53:14",
+		"unloadable" : "dkh 04/14/2012 13:53:14",
+		"updatePackage:withSnapshot:" : "dkh 04/14/2012 13:53:14" } }

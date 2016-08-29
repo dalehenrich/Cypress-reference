@@ -2,7 +2,6 @@
 	"category" : "Cypress-Definitions",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -17,5 +16,4 @@
 	"pools" : [
 		 ],
 	"super" : "CypressDefinition",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

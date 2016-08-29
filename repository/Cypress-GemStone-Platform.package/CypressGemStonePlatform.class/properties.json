@@ -1,0 +1,14 @@
+{
+	"category" : "Cypress-GemStone-Platform",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CypressGemStonePlatform",
+	"pools" : [
+		 ],
+	"super" : "CypressPlatform",
+	"type" : "normal" }

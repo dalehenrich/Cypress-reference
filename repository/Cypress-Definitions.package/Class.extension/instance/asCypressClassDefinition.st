@@ -1,9 +1,10 @@
 *Cypress-Definitions
 asCypressClassDefinition
-	^CypressClassDefinition
-		name: self name
-		superclassName: self superclass name
-		category: self category 
-		instVarNames: self instVarNames
-		classInstVarNames: self class instVarNames
-		comment: self comment
+  ^ CypressClassDefinition
+    name: self name asString
+    superclassName: self superclass name asString
+    category: self category
+    instVarNames: (self instVarNames collect: [ :each | each asString ])
+    classInstVarNames:
+      (self class instVarNames collect: [ :each | each asString ])
+    comment: self comment
