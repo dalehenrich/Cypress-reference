@@ -5,5 +5,4 @@ os: linux
 smalltalk:
   - Pharo-6.0
   - Pharo-5.0
-  - Pharo-1.4
   - GemStone-3.3.1
