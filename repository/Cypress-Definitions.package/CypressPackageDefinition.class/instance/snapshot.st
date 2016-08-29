@@ -1,10 +1,10 @@
 snapshotting
 snapshot
-  | package definitions map classMap cat platform |
-  package := MCPackage named: self name.
+  | packageInfo definitions map classMap cat platform |
   definitions := OrderedCollection new.
   platform := CypressPlatform current.
-  (Class superclassOrder: package packageInfo classes)
+  packageInfo := platform packageInforForPackageNamed: self name.
+  (Class superclassOrder: packageInfo classes)
     do: [ :cls | 
       definitions add: cls asCypressClassDefinition.
       (cls methodDictionary values sorted: [ :a :b | a selector <= b selector ])
