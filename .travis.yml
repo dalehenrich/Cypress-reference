@@ -1,19 +1,9 @@
-language: erlang
+language: smalltalk
+sudo: false
 
-env:
-   - ST=Pharo-1.4
-   - ST=Squeak-4.5
-   - ST=GemStone-3.1.0.2
-
-install:
-   - export PROJECT_HOME="$(pwd)"
-   - cd $HOME
-   - wget -q -O builderCI.zip https://github.com/dalehenrich/builderCI/zipball/master
-   - unzip -q builderCI.zip
-   - cd dalehenrich-builderCI*
-   - source build_env_vars
-   - ln -s $PROJECT_HOME $GIT_PATH
-   - ./build_image.sh
-
-script: $BUILDER_CI_HOME/testTravisCI.sh # -verbose
-
+os: linux
+smalltalk:
+  - Pharo-6.0
+  - Pharo-5.0
+  - Pharo-1.4
+  - GemStone-3.3.1

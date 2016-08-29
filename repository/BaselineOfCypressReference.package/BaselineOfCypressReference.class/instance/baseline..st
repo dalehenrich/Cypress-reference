@@ -9,8 +9,11 @@ baseline: spec
         package: 'Cypress-Structure'
           with: [ spec requires: 'Cypress-Definitions' ];
         package: 'Cypress-Mocks';
-        package: 'Cypress-Tests' with: [ spec requires: 'Cypress-Mocks' ].
+        package: 'Cypress-Tests' with: [ spec requires: #( 'Cypress-Mocks' 'Cypress-Structure') ];
+        yourself.
       spec
         group: 'default' with: #('Core');
         group: 'Core' with: #('Cypress-Definitions' 'Cypress-Structure');
-        group: 'Tests' with: #('Cypress-Tests') ]
+        group: 'Tests' with: #('Cypress-Tests');
+        group: 'CI' with: #('Core' 'Tests');
+        yourself ]

@@ -1,0 +1,11 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'CypressReference',
+      #directory : 'repository',
+      #loads : [ 'CI' ],
+      #platforms : [ #pharo ]
+    }
+  ]
+}
+
