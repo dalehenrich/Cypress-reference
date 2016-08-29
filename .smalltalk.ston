@@ -4,7 +4,7 @@ SmalltalkCISpec {
       #baseline : 'CypressReference',
       #directory : 'repository',
       #load : [ 'CI' ],
-      #platforms : [ #pharo ]
+      #platforms : [ #gemstone, #pharo ]
     }
   ]
 }

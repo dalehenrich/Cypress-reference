@@ -1,1 +1,1 @@
-(name 'Cypress-Pharo-Platform-dkh.1' message 'initial commit' id '2b67289f-a942-470a-9b4b-cd8b20a5c858' date '08/29/2016' time '11:21:14' author 'dkh' ancestors () stepChildren ())
+(name 'Cypress-Pharo-Platform-TravisCI.2' message 'packageInfo for Pharo' id '8b1bcafe-e87a-4368-8234-b958d28e80f4' date '29 August 2016' time '10:43:34.71623 pm' author 'TravisCI' ancestors ((name 'Cypress-Pharo-Platform-dkh.1' message 'initial commit' id '2b67289f-a942-470a-9b4b-cd8b20a5c858' date '29 August 2016' time '11:21:14 am' author 'dkh' ancestors () stepChildren ())) stepChildren ())

@@ -1,0 +1,14 @@
+{
+	"category" : "Cypress-Pharo-Platform",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CypressPharoPlatform",
+	"pools" : [
+		 ],
+	"super" : "CypressPlatform",
+	"type" : "normal" }
