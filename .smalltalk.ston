@@ -3,7 +3,7 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'CypressReference',
       #directory : 'repository',
-      #loads : [ 'CI' ],
+      #load : [ 'CI' ],
       #platforms : [ #pharo ]
     }
   ]
