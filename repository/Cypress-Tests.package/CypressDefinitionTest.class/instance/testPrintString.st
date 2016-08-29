@@ -3,4 +3,4 @@ testPrintString
   | name pkg |
   name := 'Cypress-Mocks'.
   pkg := CypressPackageDefinition new name: name.
-  self assert: 'aCypressPackageDefinition(' , name , ')' equals: pkg printString
+  self assert: 'a CypressPackageDefinition(' , name , ')' equals: pkg printString
