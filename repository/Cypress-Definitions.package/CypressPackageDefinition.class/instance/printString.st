@@ -1,3 +1,3 @@
 printing
 printString
-	^super printString, '(', name, ')'
+  ^ 'a ' , self class name asString , '(' , name , ')'

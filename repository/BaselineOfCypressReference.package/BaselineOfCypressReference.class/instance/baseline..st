@@ -25,6 +25,10 @@ baseline: spec
     for: #(#'pharo5.x' #'pharo6.x')
     do: [ 
       spec
+        package: 'Cypress-Definitions'
+          with: [ spec includes: 'Cypress-Pharo-Definitions' ];
+        package: 'Cypress-Pharo-Definitions'
+          with: [ spec requires: 'Cypress-Definitions' ];
         package: 'Cypress-Platform'
           with: [ spec includes: 'Cypress-Pharo-Platform' ];
         package: 'Cypress-Pharo-Platform'
@@ -34,6 +38,10 @@ baseline: spec
     for: #(#'gs3.3.x' #'gs3.4.x')
     do: [ 
       spec
+        package: 'Cypress-Definitions'
+          with: [ spec includes: 'Cypress-GemStone-Definitions' ];
+        package: 'Cypress-GemStone-Definitions'
+          with: [ spec requires: 'Cypress-Definitions' ];
         package: 'Cypress-Platform'
           with: [ spec includes: 'Cypress-GemStone-Platform' ];
         package: 'Cypress-GemStone-Platform'

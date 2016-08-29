@@ -1,4 +1,4 @@
-snapshotting
+*cypress-gemstone-definitions
 snapshot
   | packageInfo definitions map classMap cat platform |
   definitions := OrderedCollection new.
