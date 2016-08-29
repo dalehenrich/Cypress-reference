@@ -1,28 +1,31 @@
 {
-	"class" : {
-		"fromClassDefinition:" : "dkh 04/15/2012 15:28:15" },
 	"instance" : {
-		"asCypressClassDefinition" : "dkh 04/15/2012 15:28:15",
-		"category" : "dkh 04/15/2012 15:28:15",
-		"classInstanceVariableNames" : "dkh 04/15/2012 15:28:15",
-		"classInstanceVariableNames:" : "dkh 04/15/2012 15:28:15",
-		"classMethodNamed:" : "dkh 04/15/2012 15:28:15",
-		"classMethods" : "dkh 04/15/2012 15:28:15",
-		"className" : "dkh 04/15/2012 15:28:15",
-		"comment" : "dkh 04/15/2012 15:28:15",
-		"comment:" : "dkh 04/15/2012 15:28:15",
 		"fromClassDefinition:" : "dkh 04/15/2012 15:28:15",
-		"fromJs:" : "dkh 04/15/2012 15:28:15",
-		"instanceMethodNamed:" : "dkh 04/15/2012 15:28:15",
-		"instanceMethods" : "dkh 04/15/2012 15:28:15",
+		"comment" : "dkh 04/15/2012 15:28:15",
+		"asCypressClassDefinition" : "dkh 04/15/2012 15:28:15",
 		"instanceVariableNames" : "dkh 04/15/2012 15:28:15",
-		"instanceVariableNames:" : "dkh 04/15/2012 15:28:15",
-		"isClassExtension" : "dkh 04/15/2012 15:28:15",
-		"isClassExtension:" : "dkh 04/15/2012 15:28:15",
 		"name" : "dkh 04/15/2012 15:28:15",
-		"name:" : "dkh 04/15/2012 15:28:15",
-		"splitMethodName:" : "dkh 04/15/2012 15:28:15",
+		"instanceMethodNamed:" : "dkh 04/15/2012 15:28:15",
+		"isClassExtension" : "dkh 04/15/2012 15:28:15",
+		"className" : "dkh 04/15/2012 15:28:15",
 		"splitMethodNameFor:" : "dkh 04/15/2012 15:28:15",
-		"superclassName" : "dkh 04/15/2012 15:28:15",
+		"classInstanceVariableNames:" : "dkh 04/15/2012 15:28:15",
+		"comment:" : "dkh 04/15/2012 15:28:15",
+		"classMethods" : "dkh 04/15/2012 15:28:15",
+		"name:" : "dkh 04/15/2012 15:28:15",
+		"isClassExtension:" : "dkh 04/15/2012 15:28:15",
+		"instanceMethods" : "dkh 04/15/2012 15:28:15",
+		"writeJsonOn:indent:" : "dkh 04/15/2012 15:28:15",
+		"classInstanceVariableNames" : "dkh 04/15/2012 15:28:15",
+		"category" : "dkh 04/15/2012 15:28:15",
 		"superclassName:" : "dkh 04/15/2012 15:28:15",
-		"writeJsonOn:indent:" : "dkh 04/15/2012 15:28:15" } }
+		"splitMethodName:" : "dkh 04/15/2012 15:28:15",
+		"fromJs:" : "dkh 04/15/2012 15:28:15",
+		"classMethodNamed:" : "dkh 04/15/2012 15:28:15",
+		"instanceVariableNames:" : "dkh 04/15/2012 15:28:15",
+		"superclassName" : "dkh 04/15/2012 15:28:15"
+	},
+	"class" : {
+		"fromClassDefinition:" : "dkh 04/15/2012 15:28:15"
+	}
+}

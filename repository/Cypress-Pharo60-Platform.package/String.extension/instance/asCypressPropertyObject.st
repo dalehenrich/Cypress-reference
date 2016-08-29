@@ -1,3 +1,3 @@
-*Cypress-Pharo50-Platform
+*Cypress-Pharo60-Platform
 asCypressPropertyObject
     ^ self urlDecoded withUnixLineEndings

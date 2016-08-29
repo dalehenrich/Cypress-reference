@@ -1,4 +1,4 @@
-*Cypress-Pharo50-Platform
+*Cypress-Pharo60-Platform
 writeCypressJsonOn: aStream indent: startIndent
     aStream
         nextPutAll: '"';

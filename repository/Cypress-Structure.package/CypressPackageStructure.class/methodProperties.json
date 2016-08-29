@@ -1,15 +1,18 @@
 {
-	"class" : {
-		"fromJson:" : "dkh 04/15/2012 15:28:15",
-		"fromPackage:" : "dkh 04/15/2012 15:28:15" },
 	"instance" : {
+		"packageExtension" : "dkh 04/15/2012 15:28:15",
+		"packageStructure" : "dkh 04/15/2012 15:28:15",
 		"asCypressJson" : "dkh 04/15/2012 15:28:15",
-		"classes" : "dkh 04/15/2012 15:28:15",
-		"extensions" : "dkh 04/15/2012 15:28:15",
+		"snapshot" : "dkh 04/15/2012 15:28:15",
 		"fromJs:" : "dkh 04/15/2012 15:28:15",
 		"fromPackage:" : "dkh 08/29/2016 12:16",
-		"packageExtension" : "dkh 04/15/2012 15:28:15",
+		"writeJsonOn:indent:" : "dkh 04/15/2012 15:28:15",
+		"classes" : "dkh 04/15/2012 15:28:15",
 		"packageName" : "dkh 04/15/2012 15:28:15",
-		"packageStructure" : "dkh 04/15/2012 15:28:15",
-		"snapshot" : "dkh 04/15/2012 15:28:15",
-		"writeJsonOn:indent:" : "dkh 04/15/2012 15:28:15" } }
+		"extensions" : "dkh 04/15/2012 15:28:15"
+	},
+	"class" : {
+		"fromJson:" : "dkh 8/29/2016 16:13",
+		"fromPackage:" : "dkh 04/15/2012 15:28:15"
+	}
+}

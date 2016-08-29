@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"testDictionaryOfPatchOperations" : "dkh 4/14/2012 13:09:51",
 		"testPatch" : "dkh 4/14/2012 13:09:51",
-		"testPatchOperationEquality" : "dkh 4/14/2012 13:09:51" } }
+		"testPatchOperationEquality" : "dkh 4/14/2012 13:09:51",
+		"testDictionaryOfPatchOperations" : "dkh 4/14/2012 13:09:51"
+	},
+	"class" : { }
+}

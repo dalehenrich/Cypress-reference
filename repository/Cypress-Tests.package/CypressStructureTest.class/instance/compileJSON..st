@@ -1,4 +1,4 @@
 private
 compileJSON: aJsonString
 
-	^MCFileTreeJsonParser parse: aJsonString
+	^CypressPlatform current parseJSON: aJsonString

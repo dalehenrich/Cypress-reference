@@ -1,13 +1,14 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"compileJSON:" : "dkh 4/14/2012 13:09:51",
-		"testClassStructure" : "dkh 4/14/2012 13:09:51",
-		"testJson" : "dkh 4/14/2012 13:09:51",
-		"testPackageStructureFromJson" : "dkh 4/14/2012 13:09:51",
 		"testPackageStructureFromPackage" : "dkh 4/14/2012 13:09:51",
-		"testPackageStructureSnapshot" : "dkh 4/14/2012 13:09:51",
-		"testPackageStructureToJson" : "dkh 4/14/2012 13:09:51",
 		"testPropertyDictionaryRead" : "dkh 4/14/2012 13:09:51",
-		"testPropertyDictionaryWrite" : "dkh 4/14/2012 13:09:51" } }
+		"testPackageStructureFromJson" : "dkh 4/14/2012 13:09:51",
+		"testPackageStructureSnapshot" : "dkh 4/14/2012 13:09:51",
+		"compileJSON:" : "dkh 8/29/2016 16:13",
+		"testPackageStructureToJson" : "dkh 4/14/2012 13:09:51",
+		"testJson" : "dkh 4/14/2012 13:09:51",
+		"testClassStructure" : "dkh 4/14/2012 13:09:51",
+		"testPropertyDictionaryWrite" : "dkh 4/14/2012 13:09:51"
+	},
+	"class" : { }
+}

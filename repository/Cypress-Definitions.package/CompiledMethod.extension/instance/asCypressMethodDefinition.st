@@ -6,4 +6,4 @@ asCypressMethodDefinition
 		classIsMeta: self methodClass isMeta
 		selector: self selector
 		category: self category
-		source: self getSource
+		source: self sourceCode

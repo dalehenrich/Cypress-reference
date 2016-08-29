@@ -1,20 +1,23 @@
 {
-	"class" : {
-		"fromMethodDefinition:" : "dkh 04/15/2012 15:28:15" },
 	"instance" : {
-		"asCypressMethodDefinition" : "dkh 04/15/2012 15:28:15",
-		"category" : "dkh 04/15/2012 15:28:15",
-		"category:" : "dkh 04/15/2012 15:28:15",
-		"classStructure" : "dkh 04/15/2012 15:28:15",
-		"classStructure:" : "dkh 04/15/2012 15:28:15",
-		"cypressSource" : "dkh 04/15/2012 15:28:15",
-		"extractCypressSource:" : "dkh 04/15/2012 15:28:15",
-		"fromJs:named:" : "dkh 04/15/2012 15:28:15",
 		"fromMethodDefinition:" : "dkh 04/15/2012 15:28:15",
-		"isMetaclass" : "dkh 04/15/2012 15:28:15",
+		"extractCypressSource:" : "dkh 04/15/2012 15:28:15",
+		"source" : "dkh 04/15/2012 15:28:15",
+		"cypressSource" : "dkh 04/15/2012 15:28:15",
+		"asCypressMethodDefinition" : "dkh 04/15/2012 15:28:15",
+		"source:" : "dkh 04/15/2012 15:28:15",
+		"classStructure" : "dkh 04/15/2012 15:28:15",
+		"writeJsonOn:indent:" : "dkh 04/15/2012 15:28:15",
+		"classStructure:" : "dkh 04/15/2012 15:28:15",
 		"isMetaclass:" : "dkh 04/15/2012 15:28:15",
 		"selector" : "dkh 04/15/2012 15:28:15",
 		"selector:" : "dkh 04/15/2012 15:28:15",
-		"source" : "dkh 04/15/2012 15:28:15",
-		"source:" : "dkh 04/15/2012 15:28:15",
-		"writeJsonOn:indent:" : "dkh 04/15/2012 15:28:15" } }
+		"fromJs:named:" : "dkh 04/15/2012 15:28:15",
+		"isMetaclass" : "dkh 04/15/2012 15:28:15",
+		"category:" : "dkh 04/15/2012 15:28:15",
+		"category" : "dkh 04/15/2012 15:28:15"
+	},
+	"class" : {
+		"fromMethodDefinition:" : "dkh 04/15/2012 15:28:15"
+	}
+}
