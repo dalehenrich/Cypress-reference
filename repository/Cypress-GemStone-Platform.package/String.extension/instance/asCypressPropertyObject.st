@@ -1,3 +1,3 @@
-*Cypress-Structure
+*cypress-gemstone-platform
 asCypressPropertyObject
     ^ self unescapePercents withUnixLineEndings
