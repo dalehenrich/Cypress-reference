@@ -8,4 +8,4 @@ testClassDefinition
     instVarNames: #()
     classInstVarNames: #()
     comment: ''.
-  self assert: (x := def printString) = 'aCypressClassDefinition (Foo)'
+  self assert: (x := def printString) = 'a CypressClassDefinition (Foo)'

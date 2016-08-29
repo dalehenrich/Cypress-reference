@@ -8,4 +8,4 @@ testMethodDefinition
         selector: 'isFoo'
         category: 'testing'
         source: 'isFoo ^true') printString
-        = 'aCypressMethodDefinition (Foo>>isFoo)'
+        = 'a CypressMethodDefinition (Foo>>isFoo)'
