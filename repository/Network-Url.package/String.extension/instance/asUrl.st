@@ -1,4 +1,4 @@
-*squeak-converting
+*Network-Url
 asUrl
 	"convert to a Url"
 	"'http://www.cc.gatech.edu/' asUrl"

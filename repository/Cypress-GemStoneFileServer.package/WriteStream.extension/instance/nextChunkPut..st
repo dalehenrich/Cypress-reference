@@ -1,4 +1,4 @@
-*squeak
+*cypress-gemstonefileserver
 nextChunkPut: aString
 	"Append the argument, aString, to the receiver, doubling embedded terminators."
 
