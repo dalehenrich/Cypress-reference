@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #BaselineOfCypressReference!
+SystemOrganization addCategory: #'BaselineOfCypressReference'!
