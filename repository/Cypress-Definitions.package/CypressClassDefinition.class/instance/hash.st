@@ -1,8 +1,10 @@
 comparing
 hash
-    | hash |
-    hash := String stringHash: name initialHash: 0.
-    hash := String stringHash: superclassName initialHash: hash.
-    hash := String stringHash: (category ifNil: [ '' ]) initialHash: hash.
-    instVarNames , classInstVarNames do: [ :vName | hash := String stringHash: vName initialHash: hash ].
-    ^ hash
+
+	| hash |
+	hash := name hash.
+	hash := superclassName hash bitOr: hash.
+	hash := (category ifNil: ['']) hash bitOr: hash.
+	instVarNames , classInstVarNames, classVarNames, poolDictionaryNames
+		do: [:vName | hash := vName hash bitOr: hash].
+	^hash

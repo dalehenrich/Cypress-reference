@@ -1,3 +1,5 @@
 loading
 updatePackage: aPackage
-	CypressLoader updatePackage: aPackage withSnapshot: self
+	"Answer the loader used to apply the update."
+
+	^CypressLoader updatePackage: aPackage withSnapshot: self

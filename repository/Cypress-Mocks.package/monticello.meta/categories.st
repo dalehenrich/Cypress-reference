@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Cypress-Mocks'!
+SystemOrganization addCategory: #'Cypress-Mocks-Definitions'!

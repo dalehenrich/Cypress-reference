@@ -1,3 +1,8 @@
 loading
 loadMethodDefinition
-    self actualClass compile: self source classified: self category
+
+	self actualClass
+		compileMethod: self source
+		dictionaries: System myUserProfile symbolList
+		category: self category
+		environmentId: 0

@@ -10,5 +10,5 @@
 	"name" : "CypressSnapshot",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CypressObject",
 	"type" : "normal" }

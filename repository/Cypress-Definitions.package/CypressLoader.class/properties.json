@@ -12,9 +12,10 @@
 		"provisions",
 		"errors",
 		"methodAdditions",
-		"requirements" ],
+		"requirements",
+		"exceptionClass" ],
 	"name" : "CypressLoader",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CypressObject",
 	"type" : "normal" }

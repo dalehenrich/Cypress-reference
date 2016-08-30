@@ -1,4 +1,4 @@
 loading
 loadClassDefinition
 
-	self modification loadClassDefinition
+	self modification loadClassDefinition.

@@ -1,4 +1,4 @@
 loading
 postLoadDefinition
 	
-	self error: 'inappropriate to send #postLoadDefinition to a removal operation'
+	CypressError signal: 'inappropriate to send #postLoadDefinition to a removal operation'

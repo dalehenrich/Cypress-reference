@@ -1,4 +1,4 @@
 accessing
 instanceVariableNames
 
-	^self properties at: 'instvars' ifAbsent: ['']
+	^self properties at: 'instvars' ifAbsent: [#()]

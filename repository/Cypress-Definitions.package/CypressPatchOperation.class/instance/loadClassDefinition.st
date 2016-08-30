@@ -1,4 +1,4 @@
 loading
 loadClassDefinition
 
-	self subclassResponsibility
+	self subclassResponsibility: #loadClassDefinition

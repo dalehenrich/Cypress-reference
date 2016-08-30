@@ -1,7 +1,7 @@
-testing
+tests
 testNameEquality
 	| pkg name |
 	name := 'Cypress-Mocks'.
-	pkg := CypressPackageDefinition new name: name.
+	pkg := CypressPackageDefinition named: name.
 	self assert: pkg name equals: name.
-	self deny: (pkg name = 'Nope.').
+	self deny: pkg name equals: 'Nope.'.

@@ -1,9 +1,14 @@
 initialization
 fromClassDefinition: classDefinition
 
-	self isClassExtension: false.
-	self name: classDefinition name.
-	self comment: classDefinition comment.
-  	self superclassName: classDefinition superclassName.
-	self instanceVariableNames: classDefinition instVarNames.
-	self classInstanceVariableNames: classDefinition classInstVarNames.
+	self
+		isClassExtension: false;
+		name: classDefinition name;
+		category: classDefinition category;
+		comment: classDefinition comment;
+		superclassName: classDefinition superclassName;
+		instanceVariableNames: classDefinition instVarNames;
+		classInstanceVariableNames: classDefinition classInstVarNames;
+		classVariableNames: classDefinition classVarNames;
+		poolDictionaryNames: classDefinition poolDictionaryNames;
+		subclassType: classDefinition subclassType.

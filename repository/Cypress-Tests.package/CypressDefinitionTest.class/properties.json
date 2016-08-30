@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "CypressAbstractTest",
 	"category" : "Cypress-Tests",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "CypressDefinitionTest",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "CypressAbstractTest",
+	"type" : "normal" }

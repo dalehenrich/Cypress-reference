@@ -5,4 +5,4 @@ analyzeRemovals
 	sorter := CypressDependencySorter new 
 		addAll: self removals;
 		yourself.
-	removals := sorter orderedItems reversed.
+	removals := sorter orderedItems reverse.

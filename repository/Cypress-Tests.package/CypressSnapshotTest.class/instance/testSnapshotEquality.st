@@ -1,8 +1,8 @@
-testing
+tests
 testSnapshotEquality
 	| name pkg packageDefinitions expectedDefinitions |
 	name := 'Cypress-Mocks'.
-	pkg := CypressPackageDefinition new name: name.
+	pkg := CypressPackageDefinition named: name.
 	packageDefinitions := pkg snapshot definitions.
 	expectedDefinitions := self baseDefinitions.
-	self assert: packageDefinitions asArray = expectedDefinitions asArray
+	self assert: packageDefinitions asArray equals: expectedDefinitions asArray

@@ -1,3 +1,4 @@
 accessing
-classInstanceVariableNames: aString
-	^self properties at: 'classinstvars' put: aString
+classInstanceVariableNames: someStrings
+
+	^self properties at: 'classinstvars' put: someStrings

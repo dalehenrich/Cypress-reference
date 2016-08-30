@@ -1,4 +1,4 @@
 *Cypress-Structure
 asCypressPropertyObject
 
-	^self collect: [:each | each asCypressPropertyObject ]
+	^self collect: [:each | each asCypressPropertyObject]

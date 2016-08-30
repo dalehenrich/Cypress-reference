@@ -1,0 +1,14 @@
+{
+	"category" : "Cypress-Structure",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CypressJsonError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

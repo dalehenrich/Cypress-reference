@@ -1,8 +1,9 @@
 comparing
 hash
-    | hash |
-    hash := String stringHash: classIsMeta asString initialHash: 0.
-    hash := String stringHash: source initialHash: hash.
-    hash := String stringHash: category initialHash: hash.
-    hash := String stringHash: className initialHash: hash.
-    ^ hash
+
+	| hash |
+	hash := classIsMeta asString hash.
+	hash := source hash bitOr: hash.
+	hash := category hash bitOr: hash.
+	hash := className hash bitOr: hash.
+	^hash

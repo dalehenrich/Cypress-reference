@@ -1,4 +1,4 @@
 loading
 unloadDefinition
 
-	self definition unloadDefinition
+	self definition unloadDefinition.

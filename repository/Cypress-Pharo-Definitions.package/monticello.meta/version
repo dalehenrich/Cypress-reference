@@ -1,1 +1,0 @@
-(name 'Cypress-Pharo-Definitions-dkh.1' message 'move CypressPackageDefinition>>snapshot to a Pharo-specific package' id 'ab345475-3bba-44ee-8138-d763091800df' date '29 August 2016' time '2:42:03.404264 pm' author 'dkh' ancestors () stepChildren ())

@@ -1,4 +1,4 @@
 accessing
 errors
-	errors ifNil: [ errors := OrderedCollection new ].
+	errors ifNil: [self resetErrors].
 	^errors

@@ -1,4 +1,4 @@
 accessing
 packageExtension
 
-	^self properties at: 'extension' ifAbsent: ['.package' ]
+	^self packageExtensionOr: ['.package' ]

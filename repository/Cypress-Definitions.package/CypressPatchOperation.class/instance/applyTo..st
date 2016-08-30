@@ -1,4 +1,4 @@
 applying
 applyTo: aCypressLoader
 
-	self subclassResponsibility
+	self subclassResponsibility: #applyTo:

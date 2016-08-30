@@ -1,4 +1,4 @@
-testing
+tests
 testDictionaryOfPatchOperations
 	"loader uses dictionary for managing patch operations ... ensure that Amber Dictionaries stand up"
 
@@ -7,4 +7,4 @@ testDictionaryOfPatchOperations
 	self baseTargetPatch do: [:each | 
 		dict at: each put: each ].
 	self baseTargetPatch do: [:each | 
-		self assert: (dict at: each) = each ].
+		self assert: (dict at: each) equals: each ].

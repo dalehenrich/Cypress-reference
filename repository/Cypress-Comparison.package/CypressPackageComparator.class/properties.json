@@ -1,0 +1,21 @@
+{
+	"category" : "Cypress-Comparison",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"directoryPackageMap",
+		"diskTimestamps",
+		"diskSnapshots",
+		"imageSnapshots",
+		"snapshotDifferences",
+		"currentPackageName",
+		"currentAdditions",
+		"currentRemovals" ],
+	"name" : "CypressPackageComparator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

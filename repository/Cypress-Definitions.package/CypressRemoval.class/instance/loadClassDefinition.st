@@ -1,4 +1,4 @@
 loading
 loadClassDefinition
 	
-	self error: 'inappropriate to send #loadClassDefinition to a removal operation'
+	CypressError signal: 'inappropriate to send #loadClassDefinition to a removal operation'

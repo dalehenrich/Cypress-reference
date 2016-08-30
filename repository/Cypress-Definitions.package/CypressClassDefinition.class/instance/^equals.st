@@ -5,4 +5,6 @@ comparing
 		and: [category = aDefinition category
 		and: [instVarNames = aDefinition instVarNames
 		and: [classInstVarNames = aDefinition classInstVarNames
-		and: [comment = aDefinition comment]]]]]
+		and: [classVarNames = aDefinition classVarNames
+		and: [poolDictionaryNames = aDefinition poolDictionaryNames
+		and: [comment = aDefinition comment]]]]]]]

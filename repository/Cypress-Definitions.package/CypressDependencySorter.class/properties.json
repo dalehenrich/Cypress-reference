@@ -12,5 +12,5 @@
 	"name" : "CypressDependencySorter",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CypressObject",
 	"type" : "normal" }

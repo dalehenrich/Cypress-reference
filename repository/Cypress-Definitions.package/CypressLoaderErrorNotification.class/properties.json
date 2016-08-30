@@ -1,0 +1,15 @@
+{
+	"category" : "Cypress-Definitions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"patchOperation",
+		"exception" ],
+	"name" : "CypressLoaderErrorNotification",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

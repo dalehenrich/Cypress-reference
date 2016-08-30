@@ -1,4 +1,4 @@
-testing
+tests
 testPatchOperationEquality
 
 	| className modification removal addition |
@@ -19,7 +19,7 @@ testPatchOperationEquality
         			source:'name: aString
 	"changed method"
 	name := aString').
-	self assert: modification = modification.
+	self assert: modification equals: modification.
 	removal := CypressRemoval 
 			of: (CypressMethodDefinition
           			className: className
@@ -28,7 +28,7 @@ testPatchOperationEquality
         			category: 'accessing'
         			source:'extra
 	"extra method"').
-	self assert: removal = removal.
+	self assert: removal equals: removal.
 	addition := CypressAddition
 			of: (CypressMethodDefinition
           			className: className
@@ -37,4 +37,4 @@ testPatchOperationEquality
         			category: 'accessing'
         			source:'extra
 	"extra method"').
-	self assert: addition = addition.
+	self assert: addition equals: addition.

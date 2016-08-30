@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "",
-	"super" : "CypressStructure",
 	"category" : "Cypress-Structure",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"classes",
-		"extensions"
-	],
+		"extensions" ],
 	"name" : "CypressPackageStructure",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "CypressStructure",
+	"type" : "normal" }

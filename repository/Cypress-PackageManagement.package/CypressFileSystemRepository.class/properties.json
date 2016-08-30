@@ -1,0 +1,14 @@
+{
+	"category" : "Cypress-PackageManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"directoryPath" ],
+	"name" : "CypressFileSystemRepository",
+	"pools" : [
+		 ],
+	"super" : "CypressAbstractRepository",
+	"type" : "normal" }

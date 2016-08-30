@@ -1,0 +1,4 @@
+updating
+updateSavedDefinitions
+
+	self savedDefinitions: self readDefinitionsFromRepository

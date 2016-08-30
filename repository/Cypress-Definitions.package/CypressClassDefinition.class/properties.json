@@ -11,7 +11,10 @@
 		"category",
 		"comment",
 		"instVarNames",
-		"classInstVarNames" ],
+		"classInstVarNames",
+		"classVarNames",
+		"poolDictionaryNames",
+		"subclassType" ],
 	"name" : "CypressClassDefinition",
 	"pools" : [
 		 ],

@@ -1,0 +1,15 @@
+{
+	"category" : "Cypress-PackageManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"repositories",
+		"digests" ],
+	"name" : "CypressKnownPackageInformation",
+	"pools" : [
+		 ],
+	"super" : "CypressAbstractPackageInformation",
+	"type" : "normal" }

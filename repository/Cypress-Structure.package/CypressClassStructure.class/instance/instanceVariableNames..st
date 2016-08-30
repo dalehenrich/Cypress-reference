@@ -1,4 +1,4 @@
 accessing
-instanceVariableNames: aString
+instanceVariableNames: someStrings
 
-	^self properties at: 'instvars' put: aString
+	^self properties at: 'instvars' put: someStrings

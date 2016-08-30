@@ -1,3 +1,4 @@
 accessing
 classInstanceVariableNames
-	^self properties at: 'classinstvars' ifAbsent: ['']
+
+	^self properties at: 'classinstvars' ifAbsent: [#()]

@@ -1,0 +1,4 @@
+*Cypress-GemStoneCompatibilityLayer
+streamSpecies
+
+	^String

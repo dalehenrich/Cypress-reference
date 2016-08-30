@@ -1,0 +1,14 @@
+{
+	"category" : "Cypress-PackageManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"eclipsedBy" ],
+	"name" : "CypressEclipsedPackageInformation",
+	"pools" : [
+		 ],
+	"super" : "CypressAbstractPackageInformation",
+	"type" : "normal" }

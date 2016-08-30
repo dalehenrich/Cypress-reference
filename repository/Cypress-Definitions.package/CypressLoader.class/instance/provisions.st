@@ -1,4 +1,3 @@
 accessing
 provisions
-  ^ provisions
-    ifNil: [ provisions := (Smalltalk allClasses collect: [ :cl | cl name asString ]) asSet ]
+	^ provisions ifNil: [provisions := (self allClasses collect: [:cl | cl name asString]) asSet ]

@@ -1,3 +1,5 @@
 comparing
 = aDefinition
-	^(aDefinition isKindOf: CypressDefinition) and: [self isRevisionOf: aDefinition]
+
+	^(aDefinition isKindOf: CypressDefinition)
+		and: [aDefinition description = self description]

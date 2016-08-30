@@ -1,6 +1,6 @@
 querying
 instanceMethodNamed: methodName
 
-	^self instanceMethods 
+	^self instanceMethods
 		at: methodName 
-		ifAbsent: [ self instanceMethods at: methodName put: (CypressMethodStructure new name: methodName) ]
+		ifAbsentPut: [CypressMethodStructure named: methodName]

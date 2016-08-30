@@ -1,5 +1,6 @@
 operations
 loadClassDefinition: aPatchOperation
-    [ aPatchOperation loadClassDefinition ]
-        on: Error
-        do: [ :ex | self errors add: aPatchOperation ]
+
+	[aPatchOperation loadClassDefinition]
+		on: Error
+		do: [:ex | self handlePatchOperation: aPatchOperation failure: ex].

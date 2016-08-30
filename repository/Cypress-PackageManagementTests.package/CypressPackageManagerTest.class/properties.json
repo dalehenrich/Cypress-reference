@@ -1,0 +1,18 @@
+{
+	"category" : "Cypress-PackageManagementTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"currentManager",
+		"repositoriesToCleanUp",
+		"classesToCleanUp",
+		"methodsToCleanUp",
+		"categoriesToCleanUp" ],
+	"name" : "CypressPackageManagerTest",
+	"pools" : [
+		 ],
+	"super" : "CypressAbstractTest",
+	"type" : "normal" }

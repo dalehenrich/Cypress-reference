@@ -1,10 +1,13 @@
 *Cypress-Definitions
 asCypressClassDefinition
-  ^ CypressClassDefinition
-    name: self name asString
-    superclassName: self superclass name asString
-    category: self category
-    instVarNames: (self instVarNames collect: [ :each | each asString ])
-    classInstVarNames:
-      (self class instVarNames collect: [ :each | each asString ])
-    comment: self comment
+
+	^CypressClassDefinition
+		name: self name
+		superclassName: self superclass name
+		category: self category
+		instVarNames: self instVarNames
+		classInstVarNames: self class instVarNames
+		classVarNames: self classVarNames
+		poolDictionaryNames: self sharedPools
+		comment: self comment
+		subclassType: self subclassType.

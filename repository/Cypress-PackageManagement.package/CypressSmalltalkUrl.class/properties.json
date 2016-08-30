@@ -1,0 +1,14 @@
+{
+	"category" : "Cypress-PackageManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CypressSmalltalkUrl",
+	"pools" : [
+		 ],
+	"super" : "CypressAbstractFileUrl",
+	"type" : "normal" }

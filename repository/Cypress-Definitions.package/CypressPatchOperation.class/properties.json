@@ -10,5 +10,5 @@
 	"name" : "CypressPatchOperation",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CypressObject",
 	"type" : "normal" }

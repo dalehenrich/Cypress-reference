@@ -1,6 +1,7 @@
 loading
 updatePackage: aPackage withSnapshot: aSnapshot
-	|  patch snapshot |
+
+	| patch snapshot |
 	snapshot := aPackage snapshot.
 	patch := aSnapshot patchRelativeToBase: snapshot.
 	patch applyTo: self.

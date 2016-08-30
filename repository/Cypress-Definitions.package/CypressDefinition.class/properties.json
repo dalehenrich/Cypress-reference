@@ -10,5 +10,5 @@
 	"name" : "CypressDefinition",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CypressObject",
 	"type" : "normal" }

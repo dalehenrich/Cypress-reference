@@ -1,3 +1,4 @@
 loading
 loadMethodDefinition
-	self modification loadMethodDefinition
+
+	self modification loadMethodDefinition.

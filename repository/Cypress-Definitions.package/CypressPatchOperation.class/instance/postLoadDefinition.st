@@ -1,3 +1,4 @@
 loading
 postLoadDefinition
-	self subclassResponsibility
+
+	self subclassResponsibility: #postLoadDefinition

@@ -8,4 +8,4 @@ analyzeAdditions
 		yourself.
 	additions := sorter orderedItems.
 	requirements := sorter externalRequirements.
-	unloadable := sorter itemsWithMissingRequirements.
+	unloadable := sorter required.

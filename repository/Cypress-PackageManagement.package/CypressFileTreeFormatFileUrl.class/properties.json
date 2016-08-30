@@ -1,0 +1,14 @@
+{
+	"category" : "Cypress-PackageManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CypressFileTreeFormatFileUrl",
+	"pools" : [
+		 ],
+	"super" : "CypressAbstractFileUrl",
+	"type" : "normal" }

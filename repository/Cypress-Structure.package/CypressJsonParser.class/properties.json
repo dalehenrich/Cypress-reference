@@ -1,0 +1,14 @@
+{
+	"category" : "Cypress-Structure",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream" ],
+	"name" : "CypressJsonParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
